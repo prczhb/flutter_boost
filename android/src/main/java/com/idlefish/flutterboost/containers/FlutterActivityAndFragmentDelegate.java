@@ -191,8 +191,7 @@ public class FlutterActivityAndFragmentDelegate implements IFlutterViewContainer
     void onPostResume() {
         Log.v(TAG, "onPostResume()");
         ensureAlive();
-        Utils.setStatusBarLightMode(host.getActivity(), true);
-
+//        Utils.setStatusBarLightMode(host.getActivity(), true);
     }
 
 
